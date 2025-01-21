@@ -1,0 +1,85 @@
+.quicksand-normal {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Navbar style */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 110px;
+}
+img {
+  width: 50px;
+  height: 50px;
+}
+.school-logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.text-title {
+  font-weight: 119px;
+  font-size: 25px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+.items {
+  display: flex;
+  gap: 30px;
+}
+.btn {
+  width: 130px;
+  height: 35px;
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Enroll section style */
+
+.orange-clr {
+  color: orange;
+}
+.skyblu-clr {
+  color: #01acfd;
+}
+.blue-clr {
+  color: #05d4df;
+}
+.purple-clr {
+  color: #5d58ef;
+}
+
+.btn-black {
+  width: 130px;
+  height: 35px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin: 20px 110px;
+  justify-content: space-between;
+}
+
+.img-section {
+  width: 90%;
+  height: 70%;
+}
