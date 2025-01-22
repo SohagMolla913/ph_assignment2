@@ -399,11 +399,33 @@ main {
     display: none;
   }
   .img-2 {
-    width: 240px;
+    width: 180px;
     height: 230px;
   }
   .text1 {
     font-size: 17px;
+  }
+  .small-meddle-btn {
+    background-color: #95b226;
+    padding: 8px 12px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    position: absolute;
+    left: 12px;
+    bottom: 98px;
+    margin: auto;
+  }
+  .small-meddle-btn-2 {
+    background-color: #5d58f0;
+    padding: 8px 12px;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    position: absolute;
+    left: 12px;
+    bottom: 99px;
+    margin: auto;
   }
   .galary {
     align-items: center;
