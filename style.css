@@ -17,11 +17,23 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 20px 86px;
+  margin: 20px 6%;
+}
+.custom-line {
+  height: 2px;
+  background-color: #f8d409;
+  width: 100%;
+  margin: 20px 0;
+  display: none;
 }
 .hero-img {
   width: 100%;
   height: auto;
+}
+.bars {
+  width: 70px;
+  height: 70px;
+  display: none;
 }
 .main-text {
   font-size: 79px;
@@ -43,7 +55,7 @@ nav {
   gap: 8px;
   width: 62px;
   height: 62px;
-  margin: 20px;
+  /* margin: 20px; */
 }
 .text-title {
   font-weight: 119px;
@@ -94,6 +106,7 @@ nav li a {
   background-color: black;
   color: white;
   font-size: 20px;
+  font-weight: 700;
   border-radius: 15px;
   border: none;
 }
@@ -131,7 +144,11 @@ main {
   padding: 20px;
   margin-bottom: 80px;
 }
-
+.kidder-write {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px;
+}
 .card {
   width: 387px;
   height: 520px;
@@ -141,8 +158,9 @@ main {
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
 }
 .readmor {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 800;
+  padding: 27px;
 }
 
 .card img {
@@ -177,7 +195,7 @@ main {
 /* Our stories section */
 
 .sec-galary {
-  background: linear-gradient(to top, #f7d69456, #ffffff80);
+  background: linear-gradient(to top, #e5c78aa2, #ffffff80);
   background-size: cover;
   background-position: 100%;
   padding: 10px;
@@ -272,7 +290,7 @@ main {
 .view-btn {
   display: block;
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 /* Footer section */
@@ -315,7 +333,7 @@ main {
 }
 
 .last-text {
-  padding: 20px;
+  margin-bottom: 20px;
   font-size: 20px;
 }
 .footer-div {
@@ -328,4 +346,78 @@ main {
   background-color: yellow;
   text-align: center;
   font-size: 22px;
+}
+
+/* Responsive Section */
+
+@media only screen and (max-width: 576px) {
+  .items,
+  .text-title,
+  .btn {
+    display: none;
+    /* justify-content: space-between; */
+  }
+  .bars {
+    width: 70px;
+    height: 70px;
+    display: block;
+  }
+  .custom-line {
+    height: 2px;
+    background-color: #000;
+    width: 100%;
+    margin: 20px 0;
+    display: block;
+  }
+  .container {
+    flex-direction: column-reverse;
+    align-items: center;
+    margin: auto;
+    padding: 25px;
+    width: 100%;
+    text-align: center;
+  }
+  .main-text {
+    font-size: 43px;
+    font-weight: 800;
+  }
+  .card-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .standard {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+  .bar-img {
+    display: none;
+  }
+  /* our stories section */
+
+  .imgbox-1 {
+    display: none;
+  }
+  .galary {
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* footer responsive */
+  .footer-section {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .last-text {
+    /* padding: 20px; */
+    font-size: 25px;
+  }
+  .about {
+    font-size: 30px;
+  }
+  .item {
+    font-size: 25px;
+  }
 }
