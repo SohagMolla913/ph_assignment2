@@ -125,7 +125,7 @@ main {
 
 .card-section {
   display: flex;
-  gap: 28px;
+  gap: 38px;
   text-align: center;
   justify-content: center;
   padding: 20px;
@@ -133,8 +133,8 @@ main {
 }
 
 .card {
-  width: 287px;
-  height: 420px;
+  width: 387px;
+  height: 520px;
   padding: 45px;
   border-radius: 10px;
   align-items: center;
@@ -177,7 +177,7 @@ main {
 /* Our stories section */
 
 .sec-galary {
-  background: linear-gradient(to top, #f7d69496, #ffffff50);
+  background: linear-gradient(to top, #f7d69456, #ffffff80);
   background-size: cover;
   background-position: 100%;
   padding: 10px;
@@ -187,13 +187,12 @@ main {
   display: flex;
   margin-bottom: 80px;
   align-items: center;
-  /* text-align: center; */
   justify-content: center;
   gap: 20px;
 }
 
 .galary-img {
-  width: 100%;
+  width: 540px;
   border-radius: 15px 15px 0 0;
 }
 
@@ -202,7 +201,45 @@ main {
   height: 550px;
   background-color: white;
   border-radius: 10px;
+  position: relative;
 }
+/* middle button clor */
+
+.mid-blue-btn {
+  background-color: #3ca4e8;
+  padding: 8px 12px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  position: absolute;
+  left: 12px;
+  bottom: 200px;
+  margin: auto;
+}
+
+.small-meddle-btn {
+  background-color: #95b226;
+  padding: 8px 12px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  position: absolute;
+  left: 12px;
+  bottom: 70px;
+  margin: auto;
+}
+.small-meddle-btn-2 {
+  background-color: #5d58f0;
+  padding: 8px 12px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  position: absolute;
+  left: 12px;
+  bottom: 70px;
+  margin: auto;
+}
+
 .text {
   padding: 25px;
 }
@@ -213,6 +250,7 @@ main {
   background-color: white;
   border-radius: 10px;
   margin-bottom: 20px;
+  position: relative;
 }
 
 .small-img {
@@ -260,7 +298,7 @@ main {
   font-size: 35px;
 }
 .footer-p {
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .item-1 {
@@ -269,6 +307,7 @@ main {
 }
 .item {
   padding: 10px;
+  font-size: 20px;
 }
 .footer-img {
   width: 82px;
@@ -276,8 +315,17 @@ main {
 }
 
 .last-text {
-  padding: 10px;
+  padding: 20px;
+  font-size: 20px;
 }
 .footer-div {
-  margin: auto;
+  padding: 80px;
+}
+.marque {
+  width: 100%;
+  height: 30px;
+  color: black;
+  background-color: yellow;
+  text-align: center;
+  font-size: 22px;
 }
