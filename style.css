@@ -195,8 +195,7 @@ main {
 /* Our stories section */
 
 .sec-galary {
-  background: linear-gradient(to top, #e5c78aa2, #ffffff80);
-  background-size: cover;
+  background: linear-gradient(to top, #e5c78a9c, #ffffff80);
   background-position: 100%;
   padding: 10px;
 }
@@ -261,7 +260,7 @@ main {
 .text {
   padding: 25px;
 }
-
+/*  */
 .img-2 {
   width: 280px;
   height: 260px;
@@ -350,7 +349,7 @@ main {
 
 /* Responsive Section */
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 768px) {
   .items,
   .text-title,
   .btn {
@@ -398,6 +397,13 @@ main {
 
   .imgbox-1 {
     display: none;
+  }
+  .img-2 {
+    width: 240px;
+    height: 230px;
+  }
+  .text1 {
+    font-size: 17px;
   }
   .galary {
     align-items: center;
